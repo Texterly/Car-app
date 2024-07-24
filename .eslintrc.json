@@ -32,7 +32,21 @@
             "style": "kebab-case"
           }
         ],
-        "import/prefer-default-export": "off"
+        // ESLint rules
+        "import/prefer-default-export": "off",
+        "import/first": "error",
+        "import/newline-after-import": "error",
+        "import/no-duplicates": "error",
+        "max-len": ["error", 120],
+        "simple-import-sort/imports": "error",
+        "simple-import-sort/exports": "error",
+        // TypeScript Eslint rules
+        "@typescript-eslint/indent": ["error", 4],
+        "@typescript-eslint/comma-dangle": "off",
+        "@typescript-eslint/lines-between-class-members": "off",
+        "@typescript-eslint/quotes": ["error", "  double"],
+        "@typescript-eslint/no-shadow": "error",
+        "@typescript-eslint/no-explicit-any": 0
       }
     },
     {
